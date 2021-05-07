@@ -5,12 +5,12 @@ JHipster related experiments
 
 Going to develop a simple job portal, where
 
-Admin
+## Admin
 	- can Login/Logout
 	- can create/delete/update job category
 	- can create/delete/update job under a category
 
-User
+## User
 	- can login/logout
 	- brouwse job categories
 	- browse jobs under selected category
