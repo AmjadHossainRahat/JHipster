@@ -12,8 +12,8 @@ Going to develop a simple job portal, where
 
 ## User
 	- can login/logout
-	- brouwse job categories
-	- browse jobs under selected category
+	- can brouwse job categories
+	- can browse jobs under selected category
 	- can apply for a job would be great!
 
 
