@@ -28,5 +28,23 @@ sudo npm install -g generator-jhipster
 echo "Going to install yeoman..."
 sudo npm install -g yo
 
+echo "Going to configure Microsoft PPA..."
+echo ""
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+
+sudo apt update
+
+echo "Going to install .NET Core SDK 3.1((LTS) and its dependency..."
+echo ""
+sudo apt install -y apt-transport-https
+sudo apt install -y dotnet-sdk-3.1
+
+echo "Going to install/confirm .NET Core Runtime 3.1 (LTS)..."
+echo ""
+sudo apt install -y dotnet-runtime-3.1
+
+dotnet --version
+
 echo "DONE"
 echo ""
