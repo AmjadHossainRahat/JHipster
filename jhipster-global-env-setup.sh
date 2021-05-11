@@ -46,5 +46,9 @@ sudo apt install -y dotnet-runtime-3.1
 
 dotnet --version
 
+echo "Going to install jhipster .net blueprint..."
+echo ""
+sudo npm install -g generator-jhipster-dotnetcore
+
 echo "DONE"
 echo ""
